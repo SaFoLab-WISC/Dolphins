@@ -4,7 +4,7 @@
 <div align="center">
 
 [[Website]](https://vlm-driver.github.io/)
-[[Arxiv]](https://vlm-driver.github.io/)
+[[Arxiv]](https://arxiv.org/abs/2312.00438)
 [[PDF]](https://vlm-driver.github.io/)
 [[Demo]](https://youtu.be/pJAdZKySgLg?si=y7Z-j4zLuFRSzTYH)
 
