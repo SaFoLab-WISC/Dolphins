@@ -29,7 +29,7 @@ In this repo, we provide **Dolphins** code. This codebase is under [MIT License]
 ## :fire: News 
 
 * **[TBD]** We will soon release our code, model weight, dataset, and benchmark.
-* **[2023.12.2]** We release the [paper](https://vlm-driver.github.io/) and the [webpage](https://vlm-driver.github.io/) of our project.
+* **[2023.12.3]** We release the [paper](https://arxiv.org/abs/2312.00438) and the [webpage](https://vlm-driver.github.io/) of our project.
 
 ## 📑 Paper and Citation
 
