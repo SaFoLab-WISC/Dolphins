@@ -37,12 +37,12 @@ If you find our work useful, please consider citing us!
 
 ```
 @misc{ma2023dolphins,
-  title   = {Dolphins: Multimodal Language Model for Driving},
-  author  = {Yingzi Ma and Yingzi Ma and Yulong Cao and Jiachen Sun and Marco Pavone and Chaowei Xiao},
-  year    = {2023},
-  eprint={2312.},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+      title={Dolphins: Multimodal Language Model for Driving}, 
+      author={Yingzi Ma and Yulong Cao and Jiachen Sun and Marco Pavone and Chaowei Xiao},
+      year={2023},
+      eprint={2312.00438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
