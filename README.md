@@ -46,3 +46,8 @@ If you find our work useful, please consider citing us!
 }
 ```
 
+## 💝: Acknowledgements
+
+We thank the [OpenFlamingo](https://github.com/mlfoundations/open_flamingo) team and [Otter](https://github.com/Luodian/Otter) team for their great contribution to the open-source community.
+
+
