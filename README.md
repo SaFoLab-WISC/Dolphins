@@ -5,7 +5,7 @@
 
 [[Website]](https://vlm-driver.github.io/)
 [[Arxiv]](https://arxiv.org/abs/2312.00438)
-[[PDF]](https://vlm-driver.github.io/)
+[[PDF]](documents/demo_paper.pdf)
 [[Demo]](https://youtu.be/pJAdZKySgLg?si=y7Z-j4zLuFRSzTYH)
 
 [![Python Version](https://img.shields.io/badge/Python-3.9-blue.svg)](https://github.com/gray311/Dolphins/)
