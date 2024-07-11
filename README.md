@@ -33,6 +33,23 @@ In this repo, we provide **Dolphins** code. This codebase is under [MIT License]
 * **[2024.7.1]** Our paper is accepted by ECCV2024.
 * **[2023.12.3]** We release the [paper](https://arxiv.org/abs/2312.00438) and the [webpage](https://vlm-driver.github.io/) of our project.
 
+## 📹: Start Demo
+
+#### Launch a controller
+```
+python -m serve.controller --host 0.0.0.0 --port 10000
+```
+
+#### Launch a model worker
+```
+CUDA_VISIBLE_DEVICES=0 python -m serve.model_worker --controller http://localhost:10000 --port 40000 --worker http://localhost:40000 --model_name dolphins --use_lora --num_gpus 1 --limit_model_concurrency 200
+```
+
+#### Launch a gradio web server
+```
+python -m serve.gradio_web_server_video --controller http://localhost:10000 --port 7862
+```
+
 ## 📑 Paper and Citation
 
 If you find our work useful, please consider citing us!
