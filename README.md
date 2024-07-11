@@ -37,10 +37,15 @@ In this repo, we provide **Dolphins** code. This codebase is under [MIT License]
 
 #### Environment
 ```
-git clone
+git clone https://github.com/vlm-driver/Dolphins.git
 cd Dolphins
 conda create -n dolphin python==3.8
 pip install -r requirements.txt
+```
+#### Inference
+```
+python inference.py
+# If you want to input your own supplied video and the instruction, modify inference.py.
 ```
 
 ## 📹 Start Demo
