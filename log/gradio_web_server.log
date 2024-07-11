@@ -1,0 +1,9 @@
+2024-07-12 01:34:53 | INFO | gradio_web_server | args: Namespace(concurrency_count=16, controller_url='http://localhost:10000', embed=False, host='127.0.0.1', model_list_mode='once', moderate=False, port=7862, share=True)
+2024-07-12 01:34:53 | INFO | gradio_web_server | Models: []
+2024-07-12 01:34:53 | INFO | gradio_web_server | Namespace(concurrency_count=16, controller_url='http://localhost:10000', embed=False, host='127.0.0.1', model_list_mode='once', moderate=False, port=7862, share=True)
+2024-07-12 01:34:54 | INFO | stdout | Running on local URL:  http://127.0.0.1:7862
+2024-07-12 01:34:56 | INFO | stdout | Running on public URL: https://b3334c10fda6c9b171.gradio.live
+2024-07-12 01:34:56 | INFO | stdout | 
+2024-07-12 01:34:56 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-07-12 01:37:08 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-07-12 01:37:08 | INFO | stdout | Killing tunnel 127.0.0.1:7862 <> https://b3334c10fda6c9b171.gradio.live
