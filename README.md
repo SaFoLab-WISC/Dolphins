@@ -33,7 +33,17 @@ In this repo, we provide **Dolphins** code. This codebase is under [MIT License]
 * **[2024.7.1]** Our paper is accepted by ECCV2024.
 * **[2023.12.3]** We release the [paper](https://arxiv.org/abs/2312.00438) and the [webpage](https://vlm-driver.github.io/) of our project.
 
-## 📹: Start Demo
+## 🧰: Requirements and Installation
+
+#### Environment
+```
+git clone
+cd Dolphins
+conda create -n dolphin python==3.8
+pip install -r requirements.txt
+```
+
+## 📹 Start Demo
 
 #### Launch a controller
 ```
