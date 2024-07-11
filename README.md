@@ -62,7 +62,7 @@ CUDA_VISIBLE_DEVICES=0 python -m serve.model_worker --controller http://localhos
 
 #### Launch a gradio web server
 ```
-python -m serve.gradio_web_server_video --controller http://localhost:10000 --port 7862
+python -m serve.gradio_web_server_video --controller http://localhost:10000 --port 7862 --share
 ```
 
 ## 📑 Paper and Citation
