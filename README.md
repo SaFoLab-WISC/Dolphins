@@ -28,7 +28,9 @@ In this repo, we provide **Dolphins** code. This codebase is under [MIT License]
 
 ## :fire: News 
 
-* **[TBD]** We will soon release our code, model weight, dataset, and benchmark.
+* **[TBD]** We will release the training code and our benchmark within the next month!
+* **[2024.7.11]** We release the inference code and checkpoint.
+* **[2024.7.1]** Our paper is accepted by ECCV2024.
 * **[2023.12.3]** We release the [paper](https://arxiv.org/abs/2312.00438) and the [webpage](https://vlm-driver.github.io/) of our project.
 
 ## 📑 Paper and Citation
