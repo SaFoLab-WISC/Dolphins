@@ -92,8 +92,8 @@ def load_pretrained_modoel():
     model, image_processor, tokenizer = create_model_and_transforms(
         clip_vision_encoder_path="ViT-L-14-336",
         clip_vision_encoder_pretrained="openai",
-        lang_encoder_path="/root/autodl-tmp/models/mpt-7b", # anas-awadalla/mpt-7b
-        tokenizer_path="/root/autodl-tmp/models/mpt-7b",  # anas-awadalla/mpt-7b
+        lang_encoder_path="anas-awadalla/mpt-7b", # anas-awadalla/mpt-7b
+        tokenizer_path="anas-awadalla/mpt-7b",  # anas-awadalla/mpt-7b
         cross_attn_every_n_layers=4,
         use_peft=True,
         peft_config=peft_config,
@@ -151,8 +151,4 @@ if __name__ == "__main__":
     )
 
 
-"""
-python -m serve.controller --host 0.0.0.0 --port 10000
-CUDA_VISIBLE_DEVICES=0 python -m serve.model_worker --controller http://localhost:10000 --port 40000 --worker http://localhost:40000 --model_name dolphins --use_lora --num_gpus 1
-python -m serve.gradio_web_server_video --controller http://localhost:10000 --port 7862 --share
-"""
+
