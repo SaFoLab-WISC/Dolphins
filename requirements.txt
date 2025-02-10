@@ -36,6 +36,6 @@ webdataset==0.2.79
 wandb
 datasets
 mmengine
-peft
+peft==0.9.0
 pandas
 h5py
